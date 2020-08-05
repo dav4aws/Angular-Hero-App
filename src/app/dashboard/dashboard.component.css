@@ -1,0 +1,8 @@
+/* DashboardComponent's private CSS styles */
+.container{
+  width:1000px;
+}
+
+.border-right{
+  border-right: 1px solid black;
+}

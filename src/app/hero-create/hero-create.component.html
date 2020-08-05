@@ -1,0 +1,22 @@
+<div class="container">
+    <button (click)="goBack()" class="btn btn-primary">Return</button>
+
+    <form class="example-form">
+        <mat-form-field class="form">
+            <mat-label class="label">Hero Name</mat-label>
+            <input class="input" matInput #heroName>
+        </mat-form-field>
+    </form>
+
+    <form class="example-form">
+        <mat-form-field class="form">
+            <mat-label class="label">Hero Avatar</mat-label>
+            <input class="input" matInput #heroAvatar>
+        </mat-form-field>
+    </form>
+
+    <button (click)="add(heroName.value, heroAvatar.value); heroName.value=''; heroAvatar.value=''" class="btn btn-primary">Create</button>
+</div>
+
+
+  
